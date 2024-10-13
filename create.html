@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="create.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <div class="navbar" id="navbar">
-        <a href="index.html"><img src="img/tLogo.png" class="navLogo"></a>
+        <a href="index.html"><img src="img/tLogo.png" class="navLogo" alt="Tastiverse Logo"></a>
         <a href="index.html"><p class="navTxt">Home</p></a>
         <a class="navTxt" href="explore.html">Explore</a>
         <a class="navTxt" href="create.html" style="color: #835d2b;">Create</a>
         <a class="navTxt" href="tips.html">Kitchen Tips</a>
         <a class="navTxt" href="aboutus.html">About Us</a>
         <input type="text" placeholder="What recipe are you after?">
-        <img onclick="search()" src="img/search.png" style="width: 18px; margin-left: -34px;" id="btn">
+        <img onclick="search()" src="img/search.png" style="width: 18px; margin-left: -34px;" id="btn" alt="Search Icon">
     </div>
 
+    <!-- Main Content Wrapper -->
     <div class="wrapper">
         <h1>Create New Recipe</h1>
         <div class="box">
+            <!-- Recipe Form -->
             <form id="recipeForm">
                 <label for="title">Recipe Title:</label>
                 <input type="text" id="title" name="title" class="til" required>
@@ -29,6 +32,7 @@
                     <div style="width: 48%;">
                         <label for="category">Category:</label>
                         <select id="category" name="category" required>
+                            <option value="" disabled selected>Select a Food Category</option>
                             <option value="dinner">Dinner</option>
                             <option value="lunch">Lunch</option>
                             <option value="breakfast">Breakfast</option>
@@ -40,11 +44,12 @@
                     <div style="width: 48%;">
                         <label for="rating">Your Rating:</label>
                         <select id="rating" name="rating" class="til" required>
+                            <option value="" disabled selected>Select The First Rating</option>
                             <option value="1">1 Star</option>
                             <option value="2">2 Star</option>
                             <option value="3">3 Star</option>
                             <option value="4">4 Star</option>
-                            <option value="5" selected>5 Star</option>
+                            <option value="5">5 Star</option>
                         </select>
                     </div>
                 </div>
@@ -63,6 +68,7 @@
                 </div>
             </form>
 
+            <!-- Image Preview Section -->
             <div id="display">
                 <h2>Image Preview</h2>
                 <p style="margin-bottom: 8.2vh">Use a 4:3 ratio for the best display results.</p>
@@ -70,19 +76,22 @@
         </div>
     </div>
 
+    <!-- Footer Section -->
     <footer>
         <p>© 2024 Tastiverse. All rights reserved.</p>
         <div class="icons">
-            <img src="img/icons/txt.png">
+            <img src="img/icons/txt.png" alt="Text Icon">
             <div class="iLinks">
-                <a href="https://twitter.com"><img src="img/icons/t.png"></a>
-                <a href="https://facebook.com"><img src="img/icons/f.png"></a>
-                <a href="https://nz.pinterest.com/search/pins/?q=juicy%20dinner&rs=typed"><img src="img/icons/p.png"></a>
-                <a href="https://instagram.com"><img src="img/icons/cam.png"></a>
+                <a href="https://twitter.com"><img src="img/icons/t.png" alt="Twitter Icon"></a>
+                <a href="https://facebook.com"><img src="img/icons/f.png" alt="Facebook Icon"></a>
+                <a href="https://nz.pinterest.com/search/pins/?q=juicy%20dinner&rs=typed"><img src="img/icons/p.png" alt="Pinterest Icon"></a>
+                <a href="https://instagram.com"><img src="img/icons/cam.png" alt="Instagram Icon"></a>
             </div>
         </div>  
     </footer>
 
+    <!-- JavaScript File -->
     <script src="create.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>

@@ -7,58 +7,65 @@
     <title>Home | Tastiverse</title>
 </head>
 <body>
+    <!-- Navigation bar -->
     <div class="navbar" id="navbar">
-        <img src="img/tLogo.png" class="navLogo">
+        <img src="img/tLogo.png" class="navLogo" alt="Tastiverse Logo">
         <p class="navTxt" style="color: #835d2b;">Home</p>
         <a class="navTxt" href="explore.html">Explore</a>
         <a class="navTxt" href="create.html">Create</a>
         <a class="navTxt" href="tips.html">Kitchen Tips</a>
         <a class="navTxt" href="aboutus.html">About Us</a>
         <input type="text" placeholder="What recipe are you after?">
-        <img onclick="search()" src="img/search.png" style="width: 18px; margin-left: -34px;" id="btn">
+        <img onclick="search()" src="img/search.png" style="width: 18px; margin-left: -34px;" id="btn" alt="Search Icon">
     </div>
+
     <div class="wrapper">
         <div class="left">
+            <!-- Trending recipe section -->
             <div class="trending">
-                <img src="img/Burger.jpg" class="trendingImg">
+                <img src="img/Burger.jpg" class="trendingImg" alt="BBQ Pulled Pork Burger">
                 <div class="trendTxt">
                     <h2 style="font-size: 18px; margin-left: 15px;">Trending Recipe - BBQ Pulled Pork Burger</h2>
                     <p>Discover the mouth-watering delight of our featured recipe: Texas BBQ Pulled Pork Burger. Succulent pulled pork, slow-cooked to perfection and smothered in rich, smoky BBQ sauce, is piled high on a toasted brioche bun. Topped with crunchy coleslaw and pickles, this burger offers a perfect blend of flavours and textures. Ideal for BBQ lovers, this trending recipe promises a taste of Texas in every bite. Try it now on Tastiverse!</p>
                     <a href="recipe?id=0" style="margin: 0 0 0 15px; text-decoration: underline;">Cook the Recipe Here. . .</a>
                 </div>
             </div>
+
             <h2 class="slogan">Discover Tasty Recipes - Cook, Eat, Enjoy!</h2>
-        
+
+            <!-- Recipe category links -->
             <div class="links">
                 <a href="explore.html?id=dinner">
                     <div class="link">
-                        <img src="img/dinner.png" style="object-position: -81px;" class="dinner">
+                        <img src="img/dinner.png" style="object-position: -81px;" class="dinner" alt="Dinner">
                         <p>Dinner</p>
                     </div>
                 </a>
                 <a href="explore.html?id=lunch">
                     <div class="link">
-                        <img src="img/lunch.webp" class="dinner">
+                        <img src="img/lunch.webp" class="dinner" alt="Lunch">
                         <p>Lunch</p>
                     </div>
                 </a>
                 <a href="explore.html?id=dessert">
                     <div class="link">
-                        <img src="img/dessert.jpg" class="dinner">
+                        <img src="img/dessert.jpg" class="dinner" alt="Dessert">
                         <p>Dessert</p>
                     </div>
                 </a>
                 <a href="explore.html?id=drinks">
                     <div class="link">
-                        <img src="img/drinks.jpg" class="dinner">
+                        <img src="img/drinks.jpg" class="dinner" alt="Drinks">
                         <p>Drinks</p>
                     </div>
                 </a>
             </div>
-           
         </div>
+
         <div class="right">
             <p style="margin: 0 6px 4px 10px">Latest Recipes</p>
+
+            <!-- Latest recipes section -->
             <a href="recipe?id=6">
                 <div class="latest">
                     <hr>
@@ -68,11 +75,11 @@
                             <p class="name">Texas Style BBQ Ribs<br>With Secret Sauce </p>
                             <p class="time">2 Hours Cooking time</p>
                             <div class="rating">
-                                <img src="img/stars/5star.png" style="width: 6vw;">
+                                <img src="img/stars/5star.png" style="width: 6vw;" alt="5 Star Rating">
                                 <h2>64</h2>
                             </div>
                         </div>
-                        <img src="img/steak.jpg" style="width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;">
+                        <img src="img/steak.jpg" style="width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;" alt="Texas Style BBQ Ribs">
                     </div>  
                 </div> 
             </a>
@@ -85,11 +92,11 @@
                             <p class="name">15 Minute Homemade <br> Iced Bubble tea </p>
                             <p class="time">30 Minutes Preperation</p>
                             <div class="rating">
-                                <img src="img/stars/3star.png" style="width: 6vw;">
+                                <img src="img/stars/3star.png" style="width: 6vw;" alt="3 Star Rating">
                                 <h2>128</h2>
                             </div>
                         </div>
-                        <img src="img/drink.jpg" style="object-position: -56px; width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;">
+                        <img src="img/drink.jpg" style="object-position: -56px; width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;" alt="Iced Bubble Tea">
                     </div>  
                 </div> 
             </a>
@@ -102,11 +109,11 @@
                             <p class="name">Authentic Italian style<br>Pesto Pasta Recipe</p>
                             <p class="time">1.5 Hours Cooking time</p>
                             <div class="rating">
-                                <img src="img/stars/4star.png" style="width: 6vw;">
+                                <img src="img/stars/4star.png" style="width: 6vw;" alt="4 Star Rating">
                                 <h2>64</h2>
                             </div>
                         </div>
-                        <img src="img/pesto.jpg" style="width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;">
+                        <img src="img/pesto.jpg" style="width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;" alt="Pesto Pasta">
                     </div>  
                 </div> 
             </a>
@@ -119,11 +126,11 @@
                             <p class="name">Sweet Korean Fried<br>Chicken Popcorn</p>
                             <p class="time">30 Minutes Cooking time</p>
                             <div class="rating">
-                                <img src="img/stars/1star.png" style="width: 6vw;">
+                                <img src="img/stars/1star.png" style="width: 6vw;" alt="1 Star Rating">
                                 <h2>24</h2>
                             </div>
                         </div>
-                        <img src="img/popcorn.jpg" style="width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;">
+                        <img src="img/popcorn.jpg" style="width: 6.25vw; height: 12.592vh; object-fit: cover; margin-right: 10px;" alt="Korean Fried Chicken Popcorn">
                     </div>  
                 </div> 
             </a>
@@ -131,15 +138,16 @@
         </div>
     </div>
 
+    <!-- Footer section -->
     <footer>
         <p>© 2024 Tastiverse. All rights reserved.</p>
         <div class="icons">
-            <img src="img/icons/txt.png">
+            <img src="img/icons/txt.png" alt="Text Icon">
             <div class="iLinks">
-                <a href="https://twitter.com"><img src="img/icons/t.png"></a>
-                <a href="https://facebook.com"><img src="img/icons/f.png"></a>
-                <a href="https://nz.pinterest.com/search/pins/?q=juicy%20dinner&rs=typed"><img src="img/icons/p.png"></a>
-                <a href="https://instagram.com"><img src="img/icons/cam.png"></a>
+                <a href="https://twitter.com"><img src="img/icons/t.png" alt="Twitter Icon"></a>
+                <a href="https://facebook.com"><img src="img/icons/f.png" alt="Facebook Icon"></a>
+                <a href="https://nz.pinterest.com/search/pins/?q=juicy%20dinner&rs=typed"><img src="img/icons/p.png" alt="Pinterest Icon"></a>
+                <a href="https://instagram.com"><img src="img/icons/cam.png" alt="Instagram Icon"></a>
             </div>
         </div>  
     </footer>
